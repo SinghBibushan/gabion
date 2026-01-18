@@ -18,7 +18,7 @@ export const AboutSection = () => {
         }} transition={{
           duration: 0.3
         }}>
-            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?q=80&w=2000" alt="Gabion Wiretech Factory" className="rounded-lg shadow-xl w-full h-auto" />
+            <img src="../img/factory1.jpg" alt="Gabion Wiretech Factory" className="rounded-lg shadow-xl w-full h-auto" />
           </motion.div>
           <div data-aos="fade-left">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">

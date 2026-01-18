@@ -1,26 +1,22 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 export const ProductsSection = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const products = [{
     name: 'GI Wire',
-    image: 'https://images.unsplash.com/photo-1535813547-99c456a41d4a?q=80&w=2000',
+    image: '../img/GI_wire.jpg',
     description: 'Hot-dip heavy galvanized iron wires with superior zinc coating for excellent corrosion resistance.'
   }, {
     name: 'Chain Link Fence',
-    image: 'https://images.unsplash.com/photo-1572505431736-1821bdad6909?q=80&w=2000',
+    image: '../img/Chainlink_fence.jpg',
     description: 'Durable and flexible fencing solution perfect for security, residential and commercial applications.'
   }, {
     name: 'Gabion Box',
-    image: 'https://images.unsplash.com/photo-1628624747186-a941c476b7ef?q=80&w=2000',
+    image: '../img/Gabion_box.jpg',
     description: 'Heavy-duty wire mesh containers filled with stones for retaining walls, erosion control, and landscaping.'
   }, {
-    name: 'Ribbed Wires',
-    image: 'https://images.unsplash.com/photo-1565990315145-9b2f389b0927?q=80&w=2000',
-    description: 'Specially designed wires with ribs for enhanced grip and superior bonding in construction applications.'
-  }, {
     name: 'Geo-textiles',
-    image: 'https://images.unsplash.com/photo-1574105760593-5c8be14635ef?q=80&w=2000',
+    image: '../img/Geo_textile.jpg',
     description: 'Permeable fabrics used with soil for separation, filtration, reinforcement, protection, and drainage.'
   }];
   return <section id="products" className="py-20 bg-white">

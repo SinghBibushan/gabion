@@ -6,23 +6,23 @@ export const ContactSection = () => {
   const offices = [{
     name: 'Factory & Head Office',
     location: 'Hetauda Industrial Area, Makwanpur, Nepal',
-    phone: '+977-123-456789',
-    email: 'factory@gabionwiretech.com'
+    phone: '+977-9849259817 / 057-590153',
+    email: 'gabionwiretech@gmail.com'
   }, {
     name: 'Kathmandu Sales Office',
     location: 'Baluwatar, Kathmandu, Nepal',
-    phone: '+977-987-654321',
-    email: 'sales@gabionwiretech.com'
+    phone: '+977-9860292277 / 9748289595',
+    email: 'gabionwiretech@gmail.com'
   }, {
     name: 'Branch Office',
     location: 'Janaki 6, Nepalgunj, Nepal',
-    phone: '+977-456-789123',
-    email: 'nepalgunj@gabionwiretech.com'
+    phone: '+977-9802545292 / 9748289595',
+    email: 'gabionwiretech.npk@gmail.com'
   }];
   return <section id="contact" className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 relative">
       {/* Animated background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 opacity-5 bg-[url('https://images.unsplash.com/photo-1614036634955-ae5e90f9b9eb?q=80&w=1000')] bg-repeat"></div>
+        <div className="absolute inset-0 opacity-5 bg-[url('../img/factory2.jpg')] bg-repeat"></div>
         <motion.div className="absolute inset-0 bg-blue-500/5" animate={{
         opacity: [0.02, 0.05, 0.02]
       }} transition={{
@@ -92,29 +92,6 @@ export const ContactSection = () => {
             once: true
           }}>
               <ContactForm />
-            </motion.div>
-            <motion.div className="rounded-lg overflow-hidden shadow-md h-64 bg-gray-200" initial={{
-            opacity: 0,
-            y: 20
-          }} whileInView={{
-            opacity: 1,
-            y: 0
-          }} transition={{
-            duration: 0.5,
-            delay: 0.2
-          }} viewport={{
-            once: true
-          }} whileHover={{
-            scale: 1.02
-          }}>
-              {/* Map embed would go here - using a placeholder for now */}
-              <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?q=80&w=2000')] bg-cover bg-center flex items-center justify-center">
-                <div className="bg-white bg-opacity-90 px-4 py-2 rounded-lg shadow-md">
-                  <p className="text-gray-800 font-medium">
-                    Our Locations Across Nepal
-                  </p>
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
