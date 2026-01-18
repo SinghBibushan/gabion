@@ -101,7 +101,7 @@ export const HeroSection = () => {
       duration: 1,
       delay: 0.5
     }}>
-        <img src="https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?q=80&w=2000" alt="Factory production line" className="w-full h-full object-cover object-center rounded-tl-3xl shadow-2xl" />
+        <img src="/src/img/factory2.jpg" alt="Factory production line" className="w-full h-full object-cover object-center rounded-tl-3xl shadow-2xl" />
       </motion.div>
     </section>;
 };
