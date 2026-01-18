@@ -22,7 +22,7 @@ export const ContactSection = () => {
   return <section id="contact" className="py-20 bg-gradient-to-b from-gray-50 to-gray-100 relative">
       {/* Animated background */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute inset-0 opacity-5 bg-[url('../img/factory2.jpg')] bg-repeat"></div>
+        <div className="absolute inset-0 opacity-5 bg-[url('/src/img/factory2.jpg')] bg-repeat"></div>
         <motion.div className="absolute inset-0 bg-blue-500/5" animate={{
         opacity: [0.02, 0.05, 0.02]
       }} transition={{
