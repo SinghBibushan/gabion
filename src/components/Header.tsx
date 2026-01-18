@@ -29,6 +29,7 @@ export const Header = () => {
       }} transition={{
         duration: 0.5
       }}>
+          <img src="/src/img/logo.jpg.jpeg" alt="Gabion Wiretech Logo" className="h-10 w-10 mr-3 rounded-full" />
           <h1 className="text-xl font-bold text-blue-800">Gabion Wiretech</h1>
           <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded ml-2">
             Pvt. Ltd.
