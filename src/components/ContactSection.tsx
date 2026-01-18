@@ -63,21 +63,6 @@ export const ContactSection = () => {
                   </div>
                 </div>
               </motion.div>)}
-            <motion.div className="bg-white p-6 rounded-lg shadow-md border border-gray-100" data-aos="fade-up" data-aos-delay="300" whileHover={{
-            y: -5,
-            boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1)'
-          }}>
-              <div className="flex items-start">
-                <Clock className="text-blue-600 mr-3 flex-shrink-0 mt-1" size={18} />
-                <div>
-                  <h4 className="font-medium text-gray-800">Business Hours</h4>
-                  <p className="text-gray-600">
-                    Monday - Friday: 9:00 AM - 5:00 PM
-                  </p>
-                  <p className="text-gray-600">Saturday: 9:00 AM - 1:00 PM</p>
-                </div>
-              </div>
-            </motion.div>
           </div>
           <div className="space-y-8">
             <motion.div initial={{
