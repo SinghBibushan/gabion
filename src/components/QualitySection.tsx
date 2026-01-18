@@ -50,7 +50,7 @@ export const QualitySection = () => {
           once: true
         }}>
             <div className="absolute inset-0 bg-blue-600 rounded-lg transform rotate-3 opacity-20"></div>
-            <img src="/src/img/factory3.jpg" alt="Quality Control Process" className="rounded-lg shadow-xl w-full h-auto relative z-10" />
+            <img src="../img/factory3.jpg" alt="Quality Control Process" className="rounded-lg shadow-xl w-full h-auto relative z-10" />
           </motion.div>
           <div data-aos="fade-left">
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">
