@@ -4,19 +4,19 @@ export const ProductsSection = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const products = [{
     name: 'GI Wire',
-    image: '../img/GI_wire.jpg',
+    image: '../img/GI-Wire.jpg',
     description: 'Hot-dip heavy galvanized iron wires with superior zinc coating for excellent corrosion resistance.'
   }, {
     name: 'Chain Link Fence',
-    image: '../img/Chainlink_fence.jpg',
+    image: '../img/Chainlink Fence.jpg',
     description: 'Durable and flexible fencing solution perfect for security, residential and commercial applications.'
   }, {
     name: 'Gabion Box',
-    image: '../img/Gabion_box.jpg',
+    image: '../img/Gabion Box.jpg',
     description: 'Heavy-duty wire mesh containers filled with stones for retaining walls, erosion control, and landscaping.'
   }, {
     name: 'Geo-textiles',
-    image: '../img/Geo_textile.jpg',
+    image: '../img/Geo-Textile.jpg',
     description: 'Permeable fabrics used with soil for separation, filtration, reinforcement, protection, and drainage.'
   }];
   return <section id="products" className="py-20 bg-white">
